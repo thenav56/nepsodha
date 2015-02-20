@@ -1,0 +1,77 @@
+/*body , html {
+
+	font: "Tahoma" , sans-serif;
+}
+*/
+/*input {
+	font: inherit;
+}
+*/
+/*input[type="submit"]{
+	border:1px solid  #bbb;
+	background-color: #fff; 
+	padding: 5px 10px;
+	vertical-align: bottom 
+}
+*/
+input.typeaheadInput,
+input.search,
+.tt-input {
+	width: 120%;
+	padding: 5px 10px;
+	border: 1px solid #bbb;
+}
+
+.tt-input:focus {
+	outline: none;
+}
+
+.tt-dropdown-menu {
+	width: 120%;
+	border: 1px solid #bbb;
+	border-top: 0;
+	padding: 0;
+	background-color: #ffffff;
+	margin-top: 12px;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	 -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+      box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-header{
+	padding: 5px 10px;
+	margin: 5px 0 ;
+	background-color: #ffffff;
+	cursor:pointer;
+}
+.tt-suggestion{
+	text-align: left; 
+	padding: 5px 10px;
+	margin: 0 ;
+	background-color: #ffffff;
+	cursor:pointer;
+}
+
+.tt-suggestion p {
+	margin: 5px 0 ;
+}
+
+.tt-suggestion.tt-cursor {
+	background-color: #ddd;
+}
+
+.tt-hint {
+	color:#bbb;
+}
+
+ 
+
+
+
+ 
+ 
+ 
+ 
